@@ -171,6 +171,14 @@ Connect to VM through by getting public IP address
 
     Get-AzureRmPublicIpAddress `
       -ResourceGroupName $ResourceGroupName | Select IpAddress
+      
+ 
+Log on to the Windows Virtual Machine through Portal:
+
+1.	Click your Virtual machine on the dashboard or click on Virtual Machine and select it from the list
+2.	On the virtual machine blade click on Connect.
+3.	Click Connect -> Type the username and password you had given previously setting up 
+
 
 
 
